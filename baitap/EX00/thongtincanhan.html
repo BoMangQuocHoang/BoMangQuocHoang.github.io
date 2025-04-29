@@ -3,26 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thông tin cá nhân - Bo Mang Quốc Hoàng</title>
-  <link rel="stylesheet" href="cautrucmau.css">
+  <title>Trang Thông Tin Cá Nhân</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .profile-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      padding: 20px;
+      text-align: center;
+    }
+    .profile-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .profile-card h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #333;
+    }
+    .profile-card p {
+      margin: 5px 0;
+      color: #777;
+    }
+    .profile-card .btn {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
+    }
+    .profile-card .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Bo Mang Quốc Hoàng</h1>
-    <p>Tìm hiểu về lập trình web | Sinh viên </p>
-  </header>
-  
-  <section class="profile">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdienthoaivui.com.vn%2Ftin-tuc%2Favatar-30-4&psig=AOvVaw2dZWCsiPJSfcF8wbLMAlgZ&ust=1745920412915000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjqlsS6-owDFQAAAAAdAAAAABAE" alt="Ảnh đại diện của Bo Mang Quốc Hoàng">
-    <div class="bio">
-      <p><strong>Email:</strong> <a href="mailto:hoangbest1409@gmail.com">hoangbest1409@gmail.com</a></p>
-      <p><strong>Điện thoại:</strong> <a href="tel:0963 055 134">0327 251 006</a></p>
-      <p><strong>Zalo:</strong> <a href="https://zalo.me/0963055134" target="_blank">Chat trên Zalo</a></p>
-    </div>
-  </section>
 
-  <footer>
-    <p>&copy; 2025 Bo Mang Quốc Hoàng</p>
-  </footer>
+  <div class="profile-card">
+    <img src="https://via.placeholder.com/100" alt="Ảnh đại diện">
+    <h1>Nguyễn Văn A</h1>
+    <p>Web Developer</p>
+    <p>Email: nguyenvana@example.com</p>
+    <p>Địa chỉ: Nha Trang, Khánh Hòa</p>
+    <a href="mailto:nguyenvana@example.com" class="btn">Liên hệ</a>
+  </div>
+
 </body>
 </html>
