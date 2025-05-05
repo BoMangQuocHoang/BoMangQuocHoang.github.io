@@ -168,3 +168,13 @@ footer {
 .social-links a:hover {
     background-color: #005f99;
 }
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
