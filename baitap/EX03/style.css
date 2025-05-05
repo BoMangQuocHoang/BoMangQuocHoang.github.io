@@ -1,0 +1,103 @@
+/* Reset & font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f4f8; /* Xám nhạt */
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/* Header & Navbar */
+header {
+    background-color: #007acc; /* Xanh dương */
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700; /* Vàng nhạt khi hover */
+}
+
+/* Section */
+.section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h1, h2 {
+    color: #007acc;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+/* Liên hệ */
+.contact-section {
+    background-color: #e8f4fc; /* xanh nhạt nhẹ */
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-section a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #007acc;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #005f99;
+}
