@@ -1,0 +1,133 @@
+
+/* Reset mặc định cho tất cả phần tử */
+* {
+  margin: 0;                     /* Xóa khoảng cách mặc định */
+  padding: 0;                    /* Xóa đệm mặc định */
+  box-sizing: border-box;       /* Tính padding & border trong width/height */
+}
+
+/* CÀI ĐẶT TOÀN CỤC */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font hiện đại, dễ đọc */
+  background-color: #f4f4f4;     /* Màu nền tổng thể nhạt */
+  color: #333;                   /* Màu chữ tối dễ đọc */
+  line-height: 1.6;              /* Khoảng cách giữa các dòng */
+}
+
+/* Container để giới hạn chiều rộng và căn giữa nội dung */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;             /* Ngăn lỗi tràn khi có float hoặc flex */
+}
+
+/* HEADER (PHẦN ĐẦU TRANG) */
+
+header {
+  background-color: #2c3e50;    /* Màu nền tối hiện đại */
+  color: #ecf0f1;               /* Màu chữ sáng */
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 4px solid #1abc9c; /* Đường viền xanh ngọc dưới header */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+/* Chữ được tô màu nổi bật */
+.highlight {
+  color: #1abc9c;               /* Màu xanh ngọc để nhấn mạnh */
+}
+
+/* MENU ĐIỀU HƯỚNG */
+
+nav ul {
+  list-style: none;             /* Bỏ dấu chấm */
+  padding: 0;
+  margin: 15px 0 0;
+}
+
+nav ul a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ecf0f1;               /* Màu chữ trắng */
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+}
+
+nav ul a:hover {
+  background-color: #16a085;    /* Nền khi rê chuột vào */
+  border-radius: 4px;
+}
+
+/* TIÊU ĐỀ, ĐOẠN VĂN */
+
+h1, h2, h3 {
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* FORM NHẬP LIỆU */
+
+/* Khoảng cách giữa các input trong form */
+form input,
+form textarea,
+form button {
+  margin-bottom: 10px;
+}
+
+/* Input & textarea - thiết lập chiều rộng và định dạng */
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 60%;                   /* Chiếm 60% container */
+  max-width: 400px;             /* Giới hạn không quá to */
+  min-width: 250px;             /* Giữ không quá nhỏ trên màn hình nhỏ */
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* TRANG CHỦ - PHẦN SHOWCASE */
+
+#showcase {
+  background: url('showcase.jpg') no-repeat center center/cover; /* Ảnh nền toàn phần */
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4); /* Tạo lớp tối phủ lên ảnh nền để chữ dễ đọc */
+}
+
+#showcase h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#showcase p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* CHÂN TRANG */
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 20px;
+}
