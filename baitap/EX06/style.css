@@ -40,7 +40,8 @@ header h1 {
 }
 
 /* Chữ được tô màu nổi bật */
-.highlight {
+.highlight,
+.current {
   color: #1abc9c;               /* Màu xanh ngọc để nhấn mạnh */
 }
 
