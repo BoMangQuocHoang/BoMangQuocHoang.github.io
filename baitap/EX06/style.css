@@ -92,7 +92,7 @@ input[type="email"],
 input[type="text"],
 textarea {
   width: 60%;                   /* Chiếm 60% container */
-  max-width: 400px;             /* Giới hạn không quá to */
+  max-width: 500px;             /* Giới hạn không quá to */
   min-width: 250px;             /* Giữ không quá nhỏ trên màn hình nhỏ */
   padding: 10px;
   border-radius: 4px;
