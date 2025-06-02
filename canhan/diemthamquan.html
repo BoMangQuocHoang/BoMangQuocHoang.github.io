@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Khám phá Nha Trang">
+  <meta name="author" content="Khánh Hoà quê tôi">
+  <title>Khám phá Nha Trang | Điểm tham quan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Khám phá</span> Nha Trang</h1>
+      </div>
+      <nav>
+        <ul>
+          <a href="trangchu.html" class="current">Trang chủ</a>
+          <a href="diemthamquan.html" class="current">Điểm tham quan</a>
+          <a href="amthuc.html" class="current">Ẩm thực</a>
+          <a href="dichvu.html" class="current">Dịch vụ</a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="featured-places">
+    <div class="container">
+      <h2><span>Điểm tham quan</span> <span class="highlight">nổi bật</span></h2>
+      <p>Khám phá những địa điểm tuyệt vời ở Nha Trang phù hợp với sinh viên</p>
+
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="🔍 Tìm kiếm điểm tham quan..." onkeyup="filterCards()">
+      </div>
+
+      <div class="card-container">
+        <!-- Card 1 -->
+        <div class="place-card">
+          <img src="de666b50-cap-treo-vinpearl-nha-trang-2.jpg" alt="Cáp treo Vinpearl">
+          <div class="place-content">
+            <h3>Cáp treo Vinpearl</h3>
+            <span class="label label-giaitri">Giải trí</span>
+            <p>Trải nghiệm cáp treo dài nhất thế giới với view biển tuyệt đẹp</p>
+            <div class="price-row">
+              <span class="price blue">800K</span>
+              <span class="discount green">-30%</span>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="place-card">
+          <img src="thap-ba-ponagar-1.jpg" alt="Tháp Bà Ponagar">
+          <div class="place-content">
+            <h3>Tháp Bà Ponagar</h3>
+            <span class="label label-lichsu">Lịch sử</span>
+            <p>Di tích lịch sử Chăm cổ với kiến trúc độc đáo</p>
+            <div class="price-row">
+              <span class="price blue">30K</span>
+            </div>
+           
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="place-card">
+          <img src="nha-tho-da-nha-trang.jpg" alt="Nhà thờ Núi">
+          <div class="place-content">
+            <h3>Nhà thờ Núi</h3>
+            <span class="label label-tongiao">Tôn giáo</span>
+            <p>Kiến trúc Gothic tuyệt đẹp giữa trung tâm thành phố</p>
+            <div class="price-row">
+              <span class="price green">Có phí</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Quoc Hoang Web Design | Bản quyền © 2025</p>
+  </footer>
+</body>
+</html>
